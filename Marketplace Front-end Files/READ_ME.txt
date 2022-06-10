@@ -1,0 +1,2 @@
+Please open the "index" file with any browser in order to view how the website was supposed to look like (the front-end).
+Note that this inconvenience happened due to constraints we faced during the publishing process of the website.
