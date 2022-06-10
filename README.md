@@ -13,15 +13,13 @@ The project's features can be distinguished as such:
   - Inserting, updating, and deleting crops.
   - Inserting, updating, and deleting ready-to-go products from the inventory. They can also view them through a bar graph.
   - Inserting, updating, and deleting livestock. They can also view them through a bar graph.
-  - Inserting, updating, and deleting new staff members.
+  - Inserting, updating, and deleting staff members.
   - Inserting, updating, and deleting supplies. 
   - Viewing requested deliveries.
   ### Marketplace features:
   - A user can create an account or sign in into an existing account.
   - View products for sale.
   - Buy items.
-  
-  *Changes in any of the admin and marketplace side will be reflected in the same database.*
   
   ## Database
   The database is a remote database and was developed using *MySQL* .
