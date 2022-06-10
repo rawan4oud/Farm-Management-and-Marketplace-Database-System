@@ -46,7 +46,7 @@ The project's features can be distinguished as such:
  - *Two additional colleagues are contributors to this project.*
  - *Some features might be missing/incomplete/incoherent.*
  
- ## Images (some features)
+ ## Images of some of the features
  - Staff login page:
  
  ![Staff login Page](https://user-images.githubusercontent.com/92987443/173161162-ad5304a0-8bba-4738-9dc6-03ead42410c3.png)
