@@ -44,5 +44,5 @@ The project's features can be distinguished as such:
  
  ***Note:*** 
  - *Two additional colleagues are contributors to this project.*
- - *Some features might be missing or incomplete.*
+ - *Some features might be missing/incomplete/incoherent.*
  
