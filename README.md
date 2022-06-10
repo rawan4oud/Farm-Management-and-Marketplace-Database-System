@@ -42,4 +42,7 @@ The project's features can be distinguished as such:
   - JSch
   - Jinja2
  
- ***Note:** Two additional colleagues are contributors to this project.*
+ ***Note:*** 
+ - *Two additional colleagues are contributors to this project.*
+ - *Some features might be missing or incomplete.*
+ 
