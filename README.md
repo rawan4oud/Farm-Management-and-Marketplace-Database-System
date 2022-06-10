@@ -46,3 +46,27 @@ The project's features can be distinguished as such:
  - *Two additional colleagues are contributors to this project.*
  - *Some features might be missing/incomplete/incoherent.*
  
+ ## Images (some features)
+ - Staff login page:
+ 
+ ![Staff login Page](https://user-images.githubusercontent.com/92987443/173161162-ad5304a0-8bba-4738-9dc6-03ead42410c3.png)
+
+- Staff management tab:
+
+![Staff management tab](https://user-images.githubusercontent.com/92987443/173161357-4121fe6d-1705-4a8c-b9bc-abf5f5d7110e.png)
+
+- Manage inventory tab:
+![Manage inventory tab](https://user-images.githubusercontent.com/92987443/173161648-056737f2-063e-4aaf-a36b-a1ddc26b2fa2.png)
+
+- Marketplace homepage:
+
+![Marketplace homepage](https://user-images.githubusercontent.com/92987443/173161770-6f561245-eb62-41fd-b323-f401d5b89b14.png)
+
+- Marketplace registration form:
+
+![Marketplace registration form](https://user-images.githubusercontent.com/92987443/173161858-8dcabb5e-cd7f-4a21-8596-e5e67c1bde8b.png)
+
+- Marketplace products:
+
+![Marketplace products](https://user-images.githubusercontent.com/92987443/173161940-bd177ec1-d5d7-4662-a602-6ed64d8ec603.png)
+
