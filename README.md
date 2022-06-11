@@ -1,4 +1,4 @@
-# 🌾Farm Management and Marketplace Database System 🌾
+# 🌾 Farm Management and Marketplace Database System 🌾
 This repo contains a farm management and marketplace database system.
 
 ## Description
