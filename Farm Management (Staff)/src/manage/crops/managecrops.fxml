@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" onMouseClicked="#HandleEvents" prefHeight="570.0" prefWidth="700.0" style="-fx-background-color: #FFF;"  xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="manage.crops.CropsManager">
+    <children>
+      <Label fx:id="lblStatus" layoutX="28.0" layoutY="30.0" prefHeight="24.0" prefWidth="667.0" text="Status :" />
+        <TableView fx:id="tblData" layoutX="21.0" layoutY="358.0" prefHeight="199.0" prefWidth="667.0" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="358.0">
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+      <Text layoutX="203.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crop Management" textAlignment="CENTER" wrappingWidth="245.51368713378906">
+         <font>
+            <Font name="Segoe UI Bold" size="18.0" />
+         </font>
+      </Text>
+      <Pane layoutX="28.0" layoutY="70.0" prefHeight="219.0" prefWidth="298.0">
+         <children>
+            <JFXTextField fx:id="txtType" focusColor="#1d7001" labelFloat="true" layoutY="60.0" prefHeight="36.0" prefWidth="298.0" promptText="Type" />
+            <JFXTextField fx:id="txtID" focusColor="#1d7001" labelFloat="true" prefHeight="36.0" prefWidth="298.0" promptText="ID" />
+            <JFXTextField fx:id="txtStatus" focusColor="#1d7001" labelFloat="true" layoutY="120.0" prefHeight="36.0" prefWidth="298.0" promptText="Status" />
+            <JFXTextField fx:id="txtFieldID" focusColor="#1d7001" labelFloat="true" layoutY="180.0" prefHeight="36.0" prefWidth="298.0" promptText="Field" />
+         </children>
+      </Pane>
+      <HBox alignment="CENTER_LEFT" layoutX="28.0" layoutY="285.0" prefHeight="62.0" prefWidth="298.0">
+         <children>
+            <JFXButton fx:id="insertID" buttonType="RAISED" onMouseClicked="#HandleEvents" prefHeight="45.0" prefWidth="86.0" style="-fx-background-color: #1d7001;" text="Insert" textFill="WHITE" />
+            <JFXButton fx:id="updateID" buttonType="RAISED" onMouseClicked="#updateData" prefHeight="45.0" prefWidth="86.0" style="-fx-background-color: #1d7001;" text="Update" textFill="WHITE" translateX="20.0" />
+            <JFXButton fx:id="deleteID" buttonType="RAISED" layoutX="90.0" layoutY="10.0" onMouseClicked="#deleteData" prefHeight="45.0" prefWidth="86.0" style="-fx-background-color: #1d7001;" text="Delete" textFill="WHITE" translateX="40.0" />
+         </children>
+      </HBox>
+    </children>
+</AnchorPane>
