@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<AnchorPane id="AnchorPane" onMouseClicked="#saveData" prefHeight="543.0" prefWidth="1038.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="manage.staff.StaffManager">
+    <children>
+      <Label fx:id="lblStatus" layoutX="28.0" layoutY="30.0" prefHeight="24.0" prefWidth="667.0" text="Status :" />
+        <TableView fx:id="tblData" layoutX="336.0" layoutY="66.0" prefHeight="449.0" prefWidth="682.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="336.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="66.0">
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+      <Text layoutX="450.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Staff Management" textAlignment="CENTER" wrappingWidth="245.51368713378906">
+         <font>
+            <Font name="Segoe UI Bold" size="18.0" />
+         </font>
+      </Text>
+      <Pane layoutX="28.0" layoutY="70.0" prefHeight="394.0" prefWidth="298.0">
+         <children>
+            <JFXTextField fx:id="txtID" focusColor="#1d7001" labelFloat="true" prefHeight="35.0" prefWidth="298.0" promptText="ID" />
+            <JFXTextField fx:id="txtFN" focusColor="#1d7001" labelFloat="true" layoutY="60.0" prefHeight="35.0" prefWidth="298.0" promptText="First name" />
+            <JFXTextField fx:id="txtLN" focusColor="#1d7001" labelFloat="true" layoutY="120.0" prefHeight="35.0" prefWidth="298.0" promptText="Last name" />
+            <JFXTextField fx:id="txtOcc" focusColor="#1d7001" labelFloat="true" layoutY="180.0" prefHeight="35.0" prefWidth="298.0" promptText="Occupation" />
+            <JFXDatePicker fx:id="DOB" layoutY="240.0" prefHeight="35.0" prefWidth="298.0" promptText="Date of birth" />
+            <JFXTextField fx:id="txtUsername" focusColor="#1d7001" labelFloat="true" layoutY="300.0" prefHeight="35.0" prefWidth="298.0" promptText="Username" />
+            <JFXPasswordField fx:id="txtPass" focusColor="#1d7001" labelFloat="true" layoutY="360.0" prefHeight="35.0" prefWidth="298.0" promptText="Password" />
+         </children>
+      </Pane>
+      <HBox alignment="CENTER_LEFT" layoutX="28.0" layoutY="469.0" prefHeight="62.0" prefWidth="298.0">
+         <children>
+            <JFXButton fx:id="insertID" buttonType="RAISED" onMouseClicked="#saveData" prefHeight="45.0" prefWidth="86.0" style="-fx-background-color: #1d7001;" text="Insert" textFill="WHITE" />
+            <JFXButton fx:id="updateID" buttonType="RAISED" onMouseClicked="#updateData" prefHeight="45.0" prefWidth="86.0" style="-fx-background-color: #1d7001;" text="Update" textFill="WHITE" translateX="20.0" />
+            <JFXButton fx:id="deleteID" buttonType="RAISED" layoutX="90.0" layoutY="10.0" onMouseClicked="#deleteData" prefHeight="45.0" prefWidth="86.0" style="-fx-background-color: #1d7001;" text="Delete" textFill="WHITE" translateX="40.0" />
+         </children>
+      </HBox>
+    </children>
+</AnchorPane>
